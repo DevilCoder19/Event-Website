@@ -204,6 +204,8 @@ function initializeClock(id, endtime) {
 
   
 
+
+
   function updateClock() {
     var t = getTimeRemaining(endtime);
     var y = new Date().getTime();
@@ -224,8 +226,6 @@ function initializeClock(id, endtime) {
 
 var deadline = '2020-03-19'
 initializeClock('clockdiv', deadline);
-
-
 
 
 
